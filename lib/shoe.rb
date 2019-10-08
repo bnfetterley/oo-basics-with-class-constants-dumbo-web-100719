@@ -7,7 +7,7 @@ class Shoe
     unless BRANDS.include?(@brand)
   end
   
-  # BRANDS = []
+  BRANDS = []
   
   # def brand=(brand)
   #   @brand = brand
