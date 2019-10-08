@@ -8,9 +8,9 @@ class Shoe
   
    BRANDS = []
   
-  def brands=(brands)
-    @brands = brands 
-      BRANDS << brands
+  def brand=(brand)
+    @brand = brand
+      BRANDS << brand
   end
 
   def cobble
