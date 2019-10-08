@@ -9,12 +9,12 @@ class Shoe
   
    BRANDS = []
   
-  def brand=(brand)
-    @brand = brand
-    unless BRANDS.include?(@brand)
-    BRANDS << @brand
-  end
-  end
+  # def brand=(brand)
+  #   @brand = brand
+  #   unless BRANDS.include?(@brand)
+  #   BRANDS << @brand
+  # end
+  # end
 
   def cobble
     self.condition = "new"
