@@ -13,6 +13,7 @@ class Shoe
     unless BRANDS.include?(@brand)
     BRANDS << brand
   end
+  end
 
   def cobble
     self.condition = "new"
